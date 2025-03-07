@@ -27,7 +27,7 @@ To address these gaps, we propose **MTV-Test**, a test set that substantially ex
 We recruit 30 participants, including Auslan experts, Deaf signers, and volunteers, ensuring a wide range of signing styles. 
 Each participant is instructed on recommended camera angles, gloss lists, and recording procedures. 
 Unlike MM-WLAuslan's reliance on RGB-D sensors, our data is collected using consumer-grade devices such as smartphones (e.g., iPhone and Samsung) and webcams (e.g., Logitech C922 Pro), aligning with real-world usage scenarios.
-We show some data [here](https://github.com/XinS0909/CV_ISLR_MTV/tree/main/MTV_Test).
+We show some data samples in **./MTV_Test** folder.
 
 <p align="center">
 <img src="Imgs/mtv.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
