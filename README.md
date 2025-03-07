@@ -45,6 +45,16 @@ To overcome these challenges, we propose a two-stage framework composed of View 
 </p>
 
 ### Contrastive Multi-task View-Semantics Recognition
+
+In the Multi-task View-Semantics Recognition stage, our goal is to train robust models on the synthesized multi-view sign data by disentangling viewpoint-specific and semantics-specific features.
+First, we utilize a cross-attention mechanism to separate viewpoint and semantic information from entangled sign language embeddings. 
+Concretely, we construct triplets of skeleton samples: two sequences that share the same sign semantics but differ in viewpoint, paired with a third sequence that shares the viewpoint but represents different semantics.
+Then, we employ a multi-task learning framework that simultaneously predicts sign semantics and viewpoint angles. 
+This design ensures that viewpoint features are treated as a distinct learning objective instead of being inadvertently entangled in the sign classification pathway. 
+Finally, we apply contrastive learning objectives~\cite{schroff2015facenet} that align embeddings of similar viewpoints or semantics while separating mismatched ones. 
+Our approach encourages the model to learn truly view-invariant sign representations, thereby improving generalization to unseen camera angles.
+
+
 <p align="center">
 <img src="Imgs/CMVSR.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
 </p>
