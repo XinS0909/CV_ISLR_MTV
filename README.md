@@ -27,6 +27,7 @@ To address these gaps, we propose **MTV-Test**, a test set that substantially ex
 We recruit 30 participants, including Auslan experts, Deaf signers, and volunteers, ensuring a wide range of signing styles. 
 Each participant is instructed on recommended camera angles, gloss lists, and recording procedures. 
 Unlike MM-WLAuslan's reliance on RGB-D sensors, our data is collected using consumer-grade devices such as smartphones (e.g., iPhone and Samsung) and webcams (e.g., Logitech C922 Pro), aligning with real-world usage scenarios.
+We show some data [here](https://github.com/XinS0909/CV_ISLR_MTV/tree/main/MTV_Test).
 
 <p align="center">
 <img src="Imgs/mtv.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
@@ -40,6 +41,11 @@ Nevertheless, we observe that directly training on synthetic multi-view samples 
 To overcome these challenges, we propose a two-stage framework composed of View Synthesis and Contrastive Multi-task View-Semantics Recognition.
 
 ### View Synthesis
+In the View Synthesis stage, we extract 3D whole-body keypoints from frontal-view training data using methods such as SMPL-X-based models or image-based regression techniques. 
+Then, instead of synthesizing multi-view RGB videos, we focus on 2D skeleton sequences that are more efficient to process and less sensitive to background and lighting variations.
+Specifically, we rotate a virtual camera to diverse yaw and pitch angles and apply perspective transforms to project the 3D keypoints into their corresponding 2D skeletons. 
+This strategy significantly enriches the training data with various viewing directions without the need for expensive multi-camera setups.
+
 <p align="center">
 <img src="Imgs/data_aug.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
 </p>
@@ -51,7 +57,7 @@ First, we utilize a cross-attention mechanism to separate viewpoint and semantic
 Concretely, we construct triplets of skeleton samples: two sequences that share the same sign semantics but differ in viewpoint, paired with a third sequence that shares the viewpoint but represents different semantics.
 Then, we employ a multi-task learning framework that simultaneously predicts sign semantics and viewpoint angles. 
 This design ensures that viewpoint features are treated as a distinct learning objective instead of being inadvertently entangled in the sign classification pathway. 
-Finally, we apply contrastive learning objectives~\cite{schroff2015facenet} that align embeddings of similar viewpoints or semantics while separating mismatched ones. 
+Finally, we apply contrastive learning objectives that align embeddings of similar viewpoints or semantics while separating mismatched ones. 
 Our approach encourages the model to learn truly view-invariant sign representations, thereby improving generalization to unseen camera angles.
 
 
