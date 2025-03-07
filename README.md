@@ -34,4 +34,21 @@ Unlike MM-WLAuslan's reliance on RGB-D sensors, our data is collected using cons
 
 
 
+## Our proposed two-stage framework.
+A promising strategy for CV-ISLR involves synthesizing multi-view data from frontal-view videos, allowing models to learn from a more diverse set of camera angles. 
+Nevertheless, we observe that directly training on synthetic multi-view samples yields limited gains, as models tend to encode viewpoint-dependent cues rather than genuinely view-invariant representations. 
+To overcome these challenges, we propose a two-stage framework composed of View Synthesis and Contrastive Multi-task View-Semantics Recognition.
+
+### View Synthesis
+<p align="center">
+<img src="Imgs/data_aug.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
+</p>
+
+### Contrastive Multi-task View-Semantics Recognition
+<p align="center">
+<img src="Imgs/CMVSR.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
+</p>
+
+
+
 
