@@ -39,7 +39,7 @@ Specifically, we rotate a virtual camera to diverse yaw and pitch angles and app
 This strategy significantly enriches the training data with various viewing directions without the need for expensive multi-camera setups.
 
 <p align="center">
-<img src="Imgs/data_aug.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
+<img src="Imgs/data_aug.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="75%">
 </p>
 
 ### Contrastive Multi-task View-Semantics Recognition
@@ -54,7 +54,7 @@ Our approach encourages the model to learn truly view-invariant sign representat
 
 
 <p align="center">
-<img src="Imgs/CMVSR.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
+<img src="Imgs/CMVSR.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="75%">
 </p>
 
 
