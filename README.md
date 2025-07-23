@@ -8,7 +8,7 @@ If our project helps you, please give us a star🌟 on GitHub, that would motiva
 ## 💥 News
 [2025/6/26] **Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement** is accepted by `ICCV 2025` 🎉🎉!
 
-[2025/7/20] 
+[2025/7/20] Release Multi-View Test (**MTV-Test**) set.
 
 ### The challenges of CV-ISLR task.
 Demonstration of the viewpoint discrepancy in Cross-View Isolated Sign Language Recognition (CV-ISLR), where the top row shows a training ''alphabet'' sample and the bottom row illustrates a testing ''alphabet'' sample captured from a different perspective. 
@@ -19,11 +19,11 @@ The highlighted areas emphasize challenges such as self-occlusion and hand shape
 </p>
   
 ### Multi-View Test set (MTV-Test).
-MM-WLAuslan is currently the only dataset designed specifically for Cross-View Isolated Sign Language Recognition (CV-ISLR). Unlike traditional ISLR datasets with a single viewpoint, it includes multiple test subsets. However, these subsets primarily feature small yaw variations and rely on RGB-D sensors in controlled environments, limiting real-world applicability.
+[MM-WLAuslan](https://proceedings.neurips.cc/paper_files/paper/2024/file/812c59ba55c03a68a10c25017bdb696e-Paper-Datasets_and_Benchmarks_Track.pdf) is currently the only dataset designed specifically for Cross-View Isolated Sign Language Recognition (CV-ISLR). Unlike traditional ISLR datasets with a single viewpoint, it includes multiple test subsets. However, these subsets primarily feature small yaw variations and rely on RGB-D sensors in controlled environments, limiting real-world applicability.
 
 To address these gaps, we introduce MTV-Test, a diverse test set with broader view angles and varied conditions. It includes recordings from 30 participants—Auslan experts, Deaf signers, and volunteers—captured using everyday devices like smartphones and webcams. 
 
-Download: MTV_Test [data](https://drive.google.com/drive/folders/1kkxoCDwlPzYVLiD6NIqL3tJe9LlZdvR-) & [label](https://drive.google.com/drive/folders/1lSTCrSGJF_2C03b54ENnOQud0avfAabT).
+Download: MTV-Test [data](https://drive.google.com/drive/folders/1kkxoCDwlPzYVLiD6NIqL3tJe9LlZdvR-) & [label](https://drive.google.com/drive/folders/1lSTCrSGJF_2C03b54ENnOQud0avfAabT).
 
 
 
