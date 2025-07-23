@@ -1,4 +1,8 @@
-# Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement
+<h3 align="center"><a href="" style="color:#9C276A">
+Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement</a></h3>
+<h5 align="center"> 
+If our project helps you, please give us a star🌟 on GitHub, that would motivate us a lot!
+</h2>
 
 Cross-view isolated sign language recognition (CV-ISLR) addresses the challenge of identifying isolated signs from viewpoints unseen during training, a problem aggravated by the scarcity of multi-view data in existing benchmarks. 
 To bridge this gap, we introduce a novel two-stage framework comprising **View Synthesis** and **Contrastive Multi-task View-Semantics Recognition**.
