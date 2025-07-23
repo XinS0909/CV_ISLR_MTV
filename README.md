@@ -14,7 +14,7 @@ The highlighted areas emphasize challenges such as self-occlusion and hand shape
 
 
 ## 💥 News
-[2025/6/26] This [paper]() is accepted by `ICCV 2025` 🎉🎉!
+[2025/6/26] **Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement** is accepted by `ICCV 2025` 🎉🎉!
 
   
 ## Multi-View Test set (MTV-Test).
