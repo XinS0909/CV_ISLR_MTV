@@ -9,8 +9,9 @@ Demonstration of the viewpoint discrepancy in Cross-View Isolated Sign Language 
 The highlighted areas emphasize challenges such as self-occlusion and hand shape variations.
 
 <p align="center">
-<img src="Imgs/cv_islr.png" alt="Illustration of the CV-ISLR challenges." title="Illustration of the CV-ISLR challenges.">
+  <img src="Imgs/cv_islr.png" alt="Illustration of the CV-ISLR challenges." title="Illustration of the CV-ISLR challenges." width="75%">
 </p>
+
 
 ## 💥 News
 [2025/6/26] This [paper]() is accepted by `ICCV 2025` 🎉🎉!
