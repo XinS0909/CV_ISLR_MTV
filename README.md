@@ -4,20 +4,20 @@ Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Dis
 If our project helps you, please give us a star🌟 on GitHub, that would motivate us a lot!
 </h2>
 
-## The challenges of CV-ISLR task.
+
+## 💥 News
+[2025/6/26] **Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement** is accepted by `ICCV 2025` 🎉🎉!
+
+
+### The challenges of CV-ISLR task.
 Demonstration of the viewpoint discrepancy in Cross-View Isolated Sign Language Recognition (CV-ISLR), where the top row shows a training ''alphabet'' sample and the bottom row illustrates a testing ''alphabet'' sample captured from a different perspective. 
 The highlighted areas emphasize challenges such as self-occlusion and hand shape variations.
 
 <p align="center">
   <img src="Imgs/cv_islr.png" alt="Illustration of the CV-ISLR challenges." title="Illustration of the CV-ISLR challenges." width="75%">
 </p>
-
-
-## 💥 News
-[2025/6/26] **Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement** is accepted by `ICCV 2025` 🎉🎉!
-
   
-## Multi-View Test set (MTV-Test).
+### Multi-View Test set (MTV-Test).
 MM-WLAuslan is currently the only dataset designed explicitly for Cross-View Isolated Sign Language Recognition (CV-ISLR). 
 In contrast to traditional ISLR datasets—often restricted to a single viewpoint—MM-WLAuslan provides multiple test subsets, which allow benchmarking under various constraints. 
 However, these subsets mostly involve small yaw angles and predominantly rely on controlled sensor environments, limiting their ability to reflect broader real-world complexity. 
@@ -30,7 +30,7 @@ Unlike MM-WLAuslan's reliance on RGB-D sensors, our data is collected using cons
 We show some data samples in **./MTV_Test** folder.
 
 <p align="center">
-<img src="Imgs/mtv.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="1500">
+<img src="Imgs/mtv.png" alt="Multi-View Test set (MTV-Test)." title="Multi-View Test set (MTV-Test)." width="75%">
 </p>
 
 
