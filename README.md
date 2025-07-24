@@ -1,5 +1,6 @@
 <h3 align="center"><a href="" style="color:#9C276A">
-Cross-View Isolated Sign Language Recognition via View Synthesis and Feature Disentanglement</a></h3>
+Cross-View Isolated Sign Language Recognition via<br>
+View Synthesis and Feature Disentanglement</a></h3>
 <h5 align="center"> 
 If our project helps you, please give us a star🌟 on GitHub, that would motivate us a lot!
 </h2>
